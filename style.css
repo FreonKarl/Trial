@@ -1,0 +1,119 @@
+html
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+body
+{
+    background-color: rgb(247, 231, 208); 
+    color: rgb(0, 0, 0);
+    
+}
+
+h1, h2
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+}
+
+
+.filler
+{
+    margin-top: 7em;
+}
+
+article img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#navContainer
+{
+    background-color: rgb(59, 42, 11);
+    color:rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 7em;
+    font-size: xxlarge;
+}
+
+nav
+{
+    display: flex;
+    align-items: stretch;
+}
+
+nav > h1
+{
+    font-size: 3em;
+}
+
+#logo
+{
+    height: 6em;
+    display: flex;
+}
+
+
+#menu
+{
+    position: absolute;
+    top: 2em;
+    width: 40px;
+}
+
+#menu > div
+{
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+header
+{
+    position: relative;
+    top: 0;
+    height: 1000px;
+    background-image: url("images/header.png");
+    background-attachment: fixed;
+}
+
+header > div
+{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 35%;
+    text-align: justify;
+    background-color: rgb(105, 73, 5);
+    padding: 3%;
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+    font-size: 3em;
+}
+
+header padding
+{
+    text-align-last: center;
+}
+
+footer
+{
+    background-color: rgb(59, 42, 11);
+    color:rgb(255, 255, 255);
+    padding: 1%;
+    font-size: 2em;
+}
+
+a:link, a:visited
+{
+    color:rgb(255, 255, 255);
+}
